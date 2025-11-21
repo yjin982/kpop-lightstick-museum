@@ -1,0 +1,994 @@
+{
+  "lightsticks": [
+    {
+      "id": 1,
+      "artist": "82Major",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/82major.jpg"
+    },
+    {
+      "id": 2,
+      "artist": "AB6IX",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/ab6ix.webp"
+    },
+    {
+      "id": 3,
+      "artist": "이즈나",
+      "name": "",
+      "agency": "웨이크원",
+      "tag": "CJ ENM",
+      "version": 0,
+      "group": true,
+      "image": "/images/cjenm/wakeone_izna.png"
+    },
+    {
+      "id": 4,
+      "artist": "제로베이스원",
+      "name": "",
+      "agency": "웨이크원",
+      "tag": "CJ ENM",
+      "version": 0,
+      "group": true,
+      "image": "/images/cjenm/wakeone_zerobaseone.jpg"
+    },
+    {
+      "id": 5,
+      "artist": "케플러",
+      "name": "",
+      "agency": "웨이크원",
+      "tag": "CJ ENM",
+      "version": 1,
+      "group": true,
+      "image": "/images/cjenm/wakeone_kep1er_v1.png"
+    },
+    {
+      "id": 6,
+      "artist": "케플러",
+      "name": "",
+      "agency": "웨이크원",
+      "tag": "CJ ENM",
+      "version": 2,
+      "group": true,
+      "image": "/images/cjenm/wakeone_kep1er_v2.png"
+    },
+    {
+      "id": 7,
+      "artist": "캣츠아이",
+      "name": "",
+      "agency": "미국레이블",
+      "tag": "HYBE",
+      "version": 0,
+      "group": true,
+      "image": "/images/hybe/uslabel_catseye.png"
+    },
+    {
+      "id": 8,
+      "artist": "방탄소년단",
+      "name": "",
+      "agency": "빅히트",
+      "tag": "HYBE",
+      "version": 0,
+      "group": true,
+      "image": "/images/hybe/bighit_bts.jpg"
+    },
+    {
+      "id": 9,
+      "artist": "투바투",
+      "name": "",
+      "agency": "빅히트",
+      "tag": "HYBE",
+      "version": 1,
+      "group": true,
+      "image": "/images/hybe/bighit_txt_v1.webp"
+    },
+    {
+      "id": 10,
+      "artist": "투바투",
+      "name": "",
+      "agency": "빅히트",
+      "tag": "HYBE",
+      "version": 2,
+      "group": true,
+      "image": "/images/hybe/bighit_txt_v2.png"
+    },
+    {
+      "id": 11,
+      "artist": "아일릿",
+      "name": "",
+      "agency": "빌리프랩",
+      "tag": "HYBE",
+      "version": 0,
+      "group": true,
+      "image": "/images/hybe/beliftlab_illit.png"
+    },
+    {
+      "id": 12,
+      "artist": "엔하이픈",
+      "name": "",
+      "agency": "빌리프랩",
+      "tag": "HYBE",
+      "version": 0,
+      "group": true,
+      "image": "/images/hybe/beliftlab_enhypen.png"
+    },
+    {
+      "id": 13,
+      "artist": "르세라핌",
+      "name": "",
+      "agency": "쏘스뮤직",
+      "tag": "HYBE",
+      "version": 0,
+      "group": true,
+      "image": "/images/hybe/sourcemusic_lesserafim.png"
+    },
+    {
+      "id": 14,
+      "artist": "여자친구",
+      "name": "",
+      "agency": "쏘스뮤직",
+      "tag": "HYBE",
+      "version": 1,
+      "group": true,
+      "image": "/images/hybe/sourcemusic_gfriend_v1.jpeg"
+    },
+    {
+      "id": 15,
+      "artist": "여자친구",
+      "name": "",
+      "agency": "쏘스뮤직",
+      "tag": "HYBE",
+      "version": 2,
+      "group": true,
+      "image": "/images/hybe/sourcemusic_gfriend_v2.jpg"
+    },
+    {
+      "id": 16,
+      "artist": "여자친구",
+      "name": "",
+      "agency": "쏘스뮤직",
+      "tag": "HYBE",
+      "version": 3,
+      "group": true,
+      "image": "/images/hybe/sourcemusic_gfriend_v3.webp"
+    },
+    {
+      "id": 17,
+      "artist": "뉴진스",
+      "name": "",
+      "agency": "어도어",
+      "tag": "HYBE",
+      "version": 0,
+      "group": true,
+      "image": "/images/hybe/ador_newjeans.png"
+    },
+    {
+      "id": 18,
+      "artist": "앤팀",
+      "name": "",
+      "agency": "일본레이블",
+      "tag": "HYBE",
+      "version": 0,
+      "group": true,
+      "image": "/images/hybe/jpnlabel_andteam.webp"
+    },
+    {
+      "id": 19,
+      "artist": "보이넥스트도어",
+      "name": "",
+      "agency": "케이오지",
+      "tag": "HYBE",
+      "version": 0,
+      "group": true,
+      "image": "/images/hybe/kog_boynextdoor.webp"
+    },
+    {
+      "id": 20,
+      "artist": "세븐틴",
+      "name": "",
+      "agency": "플레디스",
+      "tag": "HYBE",
+      "version": 1,
+      "group": true,
+      "image": "/images/hybe/pledis_seventeen_v1.jpg"
+    },
+    {
+      "id": 21,
+      "artist": "세븐틴",
+      "name": "",
+      "agency": "플레디스",
+      "tag": "HYBE",
+      "version": 2,
+      "group": true,
+      "image": "/images/hybe/pledis_seventeen_v2.jpg"
+    },
+    {
+      "id": 22,
+      "artist": "세븐틴",
+      "name": "",
+      "agency": "플레디스",
+      "tag": "HYBE",
+      "version": 3,
+      "group": true,
+      "image": "/images/hybe/pledis_seventeen_v3.jpg"
+    },
+    {
+      "id": 23,
+      "artist": "투어스",
+      "name": "",
+      "agency": "플레디스",
+      "tag": "HYBE",
+      "version": 0,
+      "group": true,
+      "image": "/images/hybe/pledis_tws.png"
+    },
+    {
+      "id": 24,
+      "artist": "DAY6",
+      "name": "",
+      "agency": "JYP",
+      "tag": "JYP",
+      "version": 0,
+      "group": true,
+      "image": "/images/jyp/day6.webp"
+    },
+    {
+      "id": 25,
+      "artist": "Stray Kids",
+      "name": "",
+      "agency": "JYP",
+      "tag": "JYP",
+      "version": 0,
+      "group": true,
+      "image": "/images/jyp/straykids.jpg"
+    },
+    {
+      "id": 26,
+      "artist": "Xdinary Heroes",
+      "name": "",
+      "agency": "JYP",
+      "tag": "JYP",
+      "version": 0,
+      "group": true,
+      "image": "/images/jyp/xdinaryheroes.webp"
+    },
+    {
+      "id": 27,
+      "artist": "NMIXX",
+      "name": "",
+      "agency": "JYP",
+      "tag": "JYP",
+      "version": 0,
+      "group": true,
+      "image": "/images/jyp/nmixx.webp"
+    },
+    {
+      "id": 28,
+      "artist": "ITZY",
+      "name": "",
+      "agency": "JYP",
+      "tag": "JYP",
+      "version": 0,
+      "group": true,
+      "image": "/images/jyp/itzy.webp"
+    },
+    {
+      "id": 29,
+      "artist": "KickFlip",
+      "name": "",
+      "agency": "JYP",
+      "tag": "JYP",
+      "version": 0,
+      "group": true,
+      "image": "/images/jyp/kickflip.webp"
+    },
+    {
+      "id": 30,
+      "artist": "TWICE",
+      "name": "",
+      "agency": "JYP",
+      "tag": "JYP",
+      "version": 1,
+      "group": true,
+      "image": "/images/jyp/twice_v1.png"
+    },
+    {
+      "id": 31,
+      "artist": "TWICE",
+      "name": "",
+      "agency": "JYP",
+      "tag": "JYP",
+      "version": 2,
+      "group": true,
+      "image": "/images/jyp/twice_v2.jpg"
+    },
+    {
+      "id": 32,
+      "artist": "MONSTA X",
+      "name": "",
+      "agency": "스타쉽",
+      "tag": "Kakao",
+      "version": 1,
+      "group": true,
+      "image": "/images/kakao/starship_monstax_v1.jpg"
+    },
+    {
+      "id": 33,
+      "artist": "MONSTA X",
+      "name": "",
+      "agency": "스타쉽",
+      "tag": "Kakao",
+      "version": 2,
+      "group": true,
+      "image": "/images/kakao/starship_monstax_v2.webp"
+    },
+    {
+      "id": 34,
+      "artist": "IVE",
+      "name": "",
+      "agency": "스타쉽",
+      "tag": "Kakao",
+      "version": 0,
+      "group": true,
+      "image": "/images/kakao/starship_ive.webp"
+    },
+    {
+      "id": 35,
+      "artist": "IVE",
+      "name": "",
+      "agency": "스타쉽",
+      "tag": "Kakao",
+      "version": 2,
+      "group": true,
+      "image": "/images/kakao/starship_ive_v2.webp"
+    },
+    {
+      "id": 36,
+      "artist": "WJSN",
+      "name": "",
+      "agency": "스타쉽",
+      "tag": "Kakao",
+      "version": 0,
+      "group": true,
+      "image": "/images/kakao/starship_wjsn.jpg"
+    },
+    {
+      "id": 37,
+      "artist": "CRAVITY",
+      "name": "",
+      "agency": "스타쉽",
+      "tag": "Kakao",
+      "version": 0,
+      "group": true,
+      "image": "/images/kakao/starship_cravity.jpg"
+    },
+    {
+      "id": 38,
+      "artist": "아이유",
+      "name": "",
+      "agency": "이담",
+      "tag": "Kakao",
+      "version": 0,
+      "group": false,
+      "image": "/images/kakao/edam_iu.jpg"
+    },
+    {
+      "id": 39,
+      "artist": "STAYC",
+      "name": "",
+      "agency": "하이업",
+      "tag": "Kakao",
+      "version": 0,
+      "group": true,
+      "image": "/images/kakao/highup_stayc.jpg"
+    },
+    {
+      "id": 40,
+      "artist": "POW",
+      "name": "",
+      "agency": "파우",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/pow.jpg"
+    },
+    {
+      "id": 41,
+      "artist": "SF9",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/sf9.webp"
+    },
+    {
+      "id": 42,
+      "artist": "TVXQ",
+      "name": "",
+      "agency": "SM",
+      "tag": "SM",
+      "version": 0,
+      "group": true,
+      "image": "/images/sm/tvxq.jpg"
+    },
+    {
+      "id": 43,
+      "artist": "RIIZE",
+      "name": "",
+      "agency": "SM",
+      "tag": "SM",
+      "version": 0,
+      "group": true,
+      "image": "/images/sm/riize.webp"
+    },
+    {
+      "id": 44,
+      "artist": "Red Velvet",
+      "name": "",
+      "agency": "SM",
+      "tag": "SM",
+      "version": 0,
+      "group": true,
+      "image": "/images/sm/redvelvet.jpg"
+    },
+    {
+      "id": 45,
+      "artist": "BoA",
+      "name": "",
+      "agency": "SM",
+      "tag": "SM",
+      "version": 0,
+      "group": false,
+      "image": "/images/sm/boa.jpg"
+    },
+    {
+      "id": 46,
+      "artist": "SHINee",
+      "name": "",
+      "agency": "SM",
+      "tag": "SM",
+      "version": 3,
+      "group": true,
+      "image": "/images/sm/shinee_v3.jpg"
+    },
+    {
+      "id": 47,
+      "artist": "소녀시대",
+      "name": "",
+      "agency": "SM",
+      "tag": "SM",
+      "version": 0,
+      "group": true,
+      "image": "/images/sm/snsd.jpg"
+    },
+    {
+      "id": 48,
+      "artist": "Super Junior",
+      "name": "",
+      "agency": "SM",
+      "tag": "SM",
+      "version": 0,
+      "group": true,
+      "image": "/images/sm/superjunior.jpg"
+    },
+    {
+      "id": 49,
+      "artist": "Super Junior",
+      "name": "",
+      "agency": "SM",
+      "tag": "SM",
+      "version": 2,
+      "group": true,
+      "image": "/images/sm/superjunior_v2.jpg"
+    },
+    {
+      "id": 50,
+      "artist": "aespa",
+      "name": "",
+      "agency": "SM",
+      "tag": "SM",
+      "version": 0,
+      "group": true,
+      "image": "/images/sm/aespa.webp"
+    },
+    {
+      "id": 51,
+      "artist": "aespa",
+      "name": "",
+      "agency": "SM",
+      "tag": "SM",
+      "version": 2,
+      "group": true,
+      "image": "/images/sm/aespa_v2.jpg"
+    },
+    {
+      "id": 52,
+      "artist": "EXO",
+      "name": "",
+      "agency": "SM",
+      "tag": "SM",
+      "version": 2,
+      "group": true,
+      "image": "/images/sm/exo_v2.jpg"
+    },
+    {
+      "id": 53,
+      "artist": "NCT",
+      "name": "",
+      "agency": "SM",
+      "tag": "SM",
+      "version": 0,
+      "group": true,
+      "image": "/images/sm/nct.png"
+    },
+    {
+      "id": 54,
+      "artist": "NCT 127",
+      "name": "",
+      "agency": "SM",
+      "tag": "SM",
+      "version": 0,
+      "group": true,
+      "image": "/images/sm/nct127.png"
+    },
+    {
+      "id": 55,
+      "artist": "NCT DREAM",
+      "name": "",
+      "agency": "SM",
+      "tag": "SM",
+      "version": 0,
+      "group": true,
+      "image": "/images/sm/nctdream.png"
+    },
+    {
+      "id": 56,
+      "artist": "NCT WISH",
+      "name": "",
+      "agency": "SM",
+      "tag": "SM",
+      "version": 0,
+      "group": true,
+      "image": "/images/sm/nctwish.png"
+    },
+    {
+      "id": 57,
+      "artist": "WayV",
+      "name": "",
+      "agency": "SM",
+      "tag": "SM",
+      "version": 1,
+      "group": true,
+      "image": "/images/sm/wayv_v1.jpg"
+    },
+    {
+      "id": 58,
+      "artist": "WayV",
+      "name": "",
+      "agency": "SM",
+      "tag": "SM",
+      "version": 2,
+      "group": true,
+      "image": "/images/sm/wayv_v2.png"
+    },
+    {
+      "id": 59,
+      "artist": "MEOVV",
+      "name": "",
+      "agency": "YG",
+      "tag": "YG",
+      "version": 0,
+      "group": true,
+      "image": "/images/yg/meovv.png"
+    },
+    {
+      "id": 60,
+      "artist": "BABYMONSTER",
+      "name": "",
+      "agency": "YG",
+      "tag": "YG",
+      "version": 0,
+      "group": true,
+      "image": "/images/yg/babymonster.jpg"
+    },
+    {
+      "id": 61,
+      "artist": "BLACKPINK",
+      "name": "",
+      "agency": "YG",
+      "tag": "YG",
+      "version": 0,
+      "group": true,
+      "image": "/images/yg/blackpink.webp"
+    },
+    {
+      "id": 62,
+      "artist": "WINNER",
+      "name": "",
+      "agency": "YG",
+      "tag": "YG",
+      "version": 1,
+      "group": true,
+      "image": "/images/yg/winner_v1.jpg"
+    },
+    {
+      "id": 63,
+      "artist": "WINNER",
+      "name": "",
+      "agency": "YG",
+      "tag": "YG",
+      "version": 2,
+      "group": true,
+      "image": "/images/yg/winner_v2.webp"
+    },
+    {
+      "id": 64,
+      "artist": "G-DRAGON",
+      "name": "",
+      "agency": "YG",
+      "tag": "YG",
+      "version": 0,
+      "group": false,
+      "image": "/images/yg/gdragon.jpg"
+    },
+    {
+      "id": 65,
+      "artist": "TREASURE",
+      "name": "",
+      "agency": "YG",
+      "tag": "YG",
+      "version": 0,
+      "group": true,
+      "image": "/images/yg/treasure.jpg"
+    },
+    {
+      "id": 66,
+      "artist": "THE BOYZ",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/theboyz.webp"
+    },
+    {
+      "id": 67,
+      "artist": "Dreamcatcher",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/dreamcatcher.jpg"
+    },
+    {
+      "id": 68,
+      "artist": "LIGHTSUM",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/lightsum.png"
+    },
+    {
+      "id": 69,
+      "artist": "LIMELIGHT",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/limelight.webp"
+    },
+    {
+      "id": 70,
+      "artist": "Libelante",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/libelante.jpg"
+    },
+    {
+      "id": 71,
+      "artist": "RESCENE",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/rescene.jpg"
+    },
+    {
+      "id": 72,
+      "artist": "MAMAMOO",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/mamamoo.webp"
+    },
+    {
+      "id": 73,
+      "artist": "MOMOLAND",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/momoland.png"
+    },
+    {
+      "id": 74,
+      "artist": "VANNER",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/vanner.jpg"
+    },
+    {
+      "id": 75,
+      "artist": "Brave Girls",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/bravegirls.jpg"
+    },
+    {
+      "id": 76,
+      "artist": "Block B",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/blockb.jpg"
+    },
+    {
+      "id": 77,
+      "artist": "VIVIZ",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/viviz.jpg"
+    },
+    {
+      "id": 78,
+      "artist": "BTOB",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/btob.jpg"
+    },
+    {
+      "id": 79,
+      "artist": "Billlie",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/billlie.jpg"
+    },
+    {
+      "id": 80,
+      "artist": "ARTMS",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/artms.webp"
+    },
+    {
+      "id": 81,
+      "artist": "iKON",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 1,
+      "group": true,
+      "image": "/images/ikon_v1.jpeg"
+    },
+    {
+      "id": 82,
+      "artist": "iKON",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 2,
+      "group": true,
+      "image": "/images/ikon_v2.jpg"
+    },
+    {
+      "id": 83,
+      "artist": "A.C.E",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/ace.jpg"
+    },
+    {
+      "id": 84,
+      "artist": "N.Flying",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/nflying.jpg"
+    },
+    {
+      "id": 85,
+      "artist": "(G)I-DLE",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/gidle.jpg"
+    },
+    {
+      "id": 86,
+      "artist": "OH MY GIRL",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/ohmygirl.jpg"
+    },
+    {
+      "id": 87,
+      "artist": "ONF",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/onf.webp"
+    },
+    {
+      "id": 88,
+      "artist": "WEi",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/wei.webp"
+    },
+    {
+      "id": 89,
+      "artist": "Weeekly",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/weeekly.jpg"
+    },
+    {
+      "id": 90,
+      "artist": "이달소",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/artms2.webp"
+    },
+    {
+      "id": 91,
+      "artist": "이달의소녀",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/loona.jpeg"
+    },
+    {
+      "id": 92,
+      "artist": "INFINITE",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/infinite.png"
+    },
+    {
+      "id": 93,
+      "artist": "KISS OF LIFE",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/kissoflife.jpg"
+    },
+    {
+      "id": 94,
+      "artist": "tripleS",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/triples.webp"
+    },
+    {
+      "id": 95,
+      "artist": "PENTAGON",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/pentagon.png"
+    },
+    {
+      "id": 96,
+      "artist": "fromis_9",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/fromis9.webp"
+    },
+    {
+      "id": 97,
+      "artist": "PLAVE",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/plave.png"
+    },
+    {
+      "id": 98,
+      "artist": "Highlight",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/highlight.webp"
+    },
+    {
+      "id": 99,
+      "artist": "H1-KEY",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/h1key.jpg"
+    }
+  ]
+}
