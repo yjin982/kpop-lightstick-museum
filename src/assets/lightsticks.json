@@ -8,7 +8,7 @@
       "tag": "",
       "version": 0,
       "group": true,
-      "image": "/images/82major.jpg"
+      "image": "/images/82major.png"
     },
     {
       "id": 2,
@@ -38,7 +38,7 @@
       "tag": "CJ ENM",
       "version": 0,
       "group": true,
-      "image": "/images/cjenm/wakeone_zerobaseone.jpg"
+      "image": "/images/cjenm/wakeone_zerobaseone.jpeg"
     },
     {
       "id": 5,
@@ -208,7 +208,7 @@
       "tag": "HYBE",
       "version": 2,
       "group": true,
-      "image": "/images/hybe/pledis_seventeen_v2.jpg"
+      "image": "/images/hybe/pledis_seventeen_v2.png"
     },
     {
       "id": 22,
@@ -238,7 +238,7 @@
       "tag": "JYP",
       "version": 0,
       "group": true,
-      "image": "/images/jyp/day6.webp"
+      "image": "/images/jyp/day6.png"
     },
     {
       "id": 25,
@@ -258,7 +258,7 @@
       "tag": "JYP",
       "version": 0,
       "group": true,
-      "image": "/images/jyp/xdinaryheroes.webp"
+      "image": "/images/jyp/xdinaryheroes.png"
     },
     {
       "id": 27,
@@ -268,7 +268,7 @@
       "tag": "JYP",
       "version": 0,
       "group": true,
-      "image": "/images/jyp/nmixx.webp"
+      "image": "/images/jyp/nmixx.png"
     },
     {
       "id": 28,
@@ -278,7 +278,7 @@
       "tag": "JYP",
       "version": 0,
       "group": true,
-      "image": "/images/jyp/itzy.webp"
+      "image": "/images/jyp/itzy.png"
     },
     {
       "id": 29,
@@ -288,7 +288,7 @@
       "tag": "JYP",
       "version": 0,
       "group": true,
-      "image": "/images/jyp/kickflip.webp"
+      "image": "/images/jyp/kickflip.png"
     },
     {
       "id": 30,
@@ -308,7 +308,7 @@
       "tag": "JYP",
       "version": 2,
       "group": true,
-      "image": "/images/jyp/twice_v2.jpg"
+      "image": "/images/jyp/twice_v2.png"
     },
     {
       "id": 32,
@@ -318,7 +318,7 @@
       "tag": "Kakao",
       "version": 1,
       "group": true,
-      "image": "/images/kakao/starship_monstax_v1.jpg"
+      "image": "/images/kakao/starship_monstax_v1.png"
     },
     {
       "id": 33,
@@ -418,7 +418,7 @@
       "tag": "SM",
       "version": 0,
       "group": true,
-      "image": "/images/sm/tvxq.jpg"
+      "image": "/images/sm/tvxq.png"
     },
     {
       "id": 43,
@@ -428,7 +428,7 @@
       "tag": "SM",
       "version": 0,
       "group": true,
-      "image": "/images/sm/riize.webp"
+      "image": "/images/sm/riize.png"
     },
     {
       "id": 44,
@@ -438,7 +438,7 @@
       "tag": "SM",
       "version": 0,
       "group": true,
-      "image": "/images/sm/redvelvet.jpg"
+      "image": "/images/sm/redvelvet.png"
     },
     {
       "id": 45,
@@ -458,7 +458,7 @@
       "tag": "SM",
       "version": 3,
       "group": true,
-      "image": "/images/sm/shinee_v3.jpg"
+      "image": "/images/sm/shinee_v3.png"
     },
     {
       "id": 47,
@@ -508,7 +508,7 @@
       "tag": "SM",
       "version": 2,
       "group": true,
-      "image": "/images/sm/aespa_v2.jpg"
+      "image": "/images/sm/aespa_v2.png"
     },
     {
       "id": 52,
@@ -608,7 +608,7 @@
       "tag": "YG",
       "version": 0,
       "group": true,
-      "image": "/images/yg/blackpink.webp"
+      "image": "/images/yg/blackpink.png"
     },
     {
       "id": 62,
@@ -648,7 +648,7 @@
       "tag": "YG",
       "version": 0,
       "group": true,
-      "image": "/images/yg/treasure.jpg"
+      "image": "/images/yg/treasure.png"
     },
     {
       "id": 66,
@@ -718,7 +718,7 @@
       "tag": "",
       "version": 0,
       "group": true,
-      "image": "/images/mamamoo.webp"
+      "image": "/images/mamamoo.png"
     },
     {
       "id": 73,
@@ -798,7 +798,7 @@
       "tag": "",
       "version": 0,
       "group": true,
-      "image": "/images/artms.webp"
+      "image": "/images/artms.png"
     },
     {
       "id": 81,
@@ -808,7 +808,7 @@
       "tag": "",
       "version": 1,
       "group": true,
-      "image": "/images/ikon_v1.jpeg"
+      "image": "/images/ikon_v1.png"
     },
     {
       "id": 82,
@@ -892,26 +892,16 @@
     },
     {
       "id": 90,
-      "artist": "이달소",
-      "name": "",
-      "agency": "",
-      "tag": "",
-      "version": 0,
-      "group": true,
-      "image": "/images/artms2.webp"
-    },
-    {
-      "id": 91,
       "artist": "이달의소녀",
       "name": "",
       "agency": "",
       "tag": "",
       "version": 0,
       "group": true,
-      "image": "/images/loona.jpeg"
+      "image": "/images/loona.png"
     },
     {
-      "id": 92,
+      "id": 91,
       "artist": "INFINITE",
       "name": "",
       "agency": "",
@@ -921,7 +911,7 @@
       "image": "/images/infinite.png"
     },
     {
-      "id": 93,
+      "id": 92,
       "artist": "KISS OF LIFE",
       "name": "",
       "agency": "",
@@ -931,7 +921,7 @@
       "image": "/images/kissoflife.jpg"
     },
     {
-      "id": 94,
+      "id": 93,
       "artist": "tripleS",
       "name": "",
       "agency": "",
@@ -941,7 +931,7 @@
       "image": "/images/triples.webp"
     },
     {
-      "id": 95,
+      "id": 94,
       "artist": "PENTAGON",
       "name": "",
       "agency": "",
@@ -951,7 +941,7 @@
       "image": "/images/pentagon.png"
     },
     {
-      "id": 96,
+      "id": 95,
       "artist": "fromis_9",
       "name": "",
       "agency": "",
@@ -961,7 +951,7 @@
       "image": "/images/fromis9.webp"
     },
     {
-      "id": 97,
+      "id": 96,
       "artist": "PLAVE",
       "name": "",
       "agency": "",
@@ -971,7 +961,7 @@
       "image": "/images/plave.png"
     },
     {
-      "id": 98,
+      "id": 97,
       "artist": "Highlight",
       "name": "",
       "agency": "",
@@ -981,7 +971,7 @@
       "image": "/images/highlight.webp"
     },
     {
-      "id": 99,
+      "id": 98,
       "artist": "H1-KEY",
       "name": "",
       "agency": "",

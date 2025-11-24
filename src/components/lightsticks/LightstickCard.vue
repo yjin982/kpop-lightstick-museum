@@ -1,83 +1,39 @@
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
-import lightsticks from '@/assets/lightsticks.json'
-import LightstickType from '@/utils/types.ts'
+import type { LightstickType } from '@/utils/types.ts'
 
-const items = ref<LightstickType[]>(lightsticks.lightsticks)
-const test = ref<LightstickType>({
-  id: 0,
-  artist: '',
-  name: '',
-  agency: '',
-  tag: '',
-  version: 0,
-  group: false,
-  image: '',
-})
+interface Prop {
+  lightStick: LightstickType
+  url: string
+  versions?: LightstickType[]
+}
 
-onMounted(() => {
-  test.value = items.value[2]
-})
+const { lightStick, url = '', versions = [] } = defineProps<Prop>()
 </script>
 
 <template>
-  <div class="card-container border border-gray-400 rounded-lg">
-    <div class="card">
-      <!-- 앞면: 응원봉 -->
-      <div class="card-face front">
-        <img :src="test.image" :alt="test.artist" />
-      </div>
+  <div
+    class="group relative w-52 h-78 bg-white rounded-lg shadow-xl overflow-hidden cursor-pointer"
+  >
+    <!-- 앞면 -->
+    <div class="w-full h-full flex items-center justify-center relative">
+      <img
+        :src="lightStick.image"
+        :alt="lightStick.artist"
+        class="h-full object-contain px-2 items-center"
+      />
+    </div>
 
-      <!-- 뒷면: 아티스트 사진 -->
-      <div class="card-face back">
-        <div class="flex flex-col h-full items-center">
-          <img
-            class="object-fit"
-            src="https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F5bab2299-e935-4295-85a1-949d9ff96572.jpg"
-            :alt="test.artist"
-          />
-          <div>{{ test.artist }}</div>
-          <div>{{ test.agency }}</div>
-        </div>
+    <!-- 뒷면 -->
+    <div
+      class="absolute bg-white inset-0 flex flex-col gap-2 -translate-y-full transition-transform duration-500 ease-out group-hover:translate-y-0"
+    >
+      <div class="h-4/5 bg-zinc-100 flex items-center justify-center">
+        <img :src="url" :alt="lightStick.artist" class="w-full h-full object-cover" />
+      </div>
+      <div class="h-1/5 pb-4">
+        <div class="text-lg font-bold text-center text-gray-900">{{ lightStick.artist }}</div>
+        <div class="text-sm text-center text-gray-600">{{ lightStick.agency }}</div>
       </div>
     </div>
   </div>
 </template>
-
-<style lang="scss" scoped>
-.card-container {
-  perspective: 1000px;
-  width: 17rem;
-  height: 25rem;
-  cursor: pointer;
-
-  &:hover .card {
-    transform: rotateY(180deg);
-  }
-}
-
-.card {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
-  transform-style: preserve-3d;
-}
-
-.card-face {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
-
-  &.back {
-    transform: rotateY(180deg);
-  }
-}
-</style>
