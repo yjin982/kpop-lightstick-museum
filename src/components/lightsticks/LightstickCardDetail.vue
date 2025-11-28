@@ -10,11 +10,7 @@ const { isOpen, selectedItem } = storeToRefs(store)
 <template>
   <div>
     <GDialog v-model="isOpen" width="1200">
-      <Carousel :autoplay="0">
-        <Slide v-for="item of 10" :key="item">
-          <div>{{ item }}</div>
-        </Slide>
-      </Carousel>
+      {{ selectedItem }}
     </GDialog>
   </div>
 </template>

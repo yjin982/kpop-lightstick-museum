@@ -3,7 +3,7 @@ import { storeToRefs } from 'pinia'
 import type { LightstickType } from '@/utils/types.ts'
 import { useDialogStore } from '@/stores/dialog'
 import LightstickCardDetail from './LightstickCardDetail.vue'
-import { Carousel, Slide } from 'vue3-carousel'
+import { Carousel, Slide, Pagination } from 'vue3-carousel'
 
 interface Prop {
   lightStick: LightstickType
@@ -17,7 +17,6 @@ const store = useDialogStore()
 const { isOpen, selectedItem } = storeToRefs(store)
 
 const openDialog = () => {
-  console.log('open')
   isOpen.value = true
   selectedItem.value = versions
 }
@@ -35,32 +34,35 @@ const config = {
     class="group relative w-52 h-78 bg-white rounded-lg shadow-xl overflow-hidden cursor-pointer"
   >
     <!-- 앞면 -->
-    <div class="w-full h-full flex items-center justify-center">
-      <!-- <img
-        :src="lightStick.image"
-        :alt="lightStick.artist"
-        class="h-full object-contain px-2 items-center"
-      /> -->
+    <div class="w-full h-full flex items-around justify-center">
       <Carousel v-bind="config">
-        <Slide v-for="item of versions" :key="item.id">
-          <img :src="item.image" :alt="lightStick.artist" />
+        <Slide v-for="item of versions" :key="item.id" class="h-70">
+          <img
+            :src="item.image"
+            :alt="lightStick.artist"
+            class="max-w-full max-h-full object-contain"
+          />
         </Slide>
+
+        <template #addons>
+          <Pagination />
+        </template>
       </Carousel>
     </div>
 
     <!-- 뒷면 -->
     <div
-      class="absolute bg-white inset-0 flex flex-col gap-2 -translate-y-full transition-transform duration-500 ease-out group-hover:translate-y-0 z-40"
+      class="absolute bg-zinc-100 inset-0 -translate-y-full transition-transform duration-500 ease-out group-hover:translate-y-0 z-40"
       @click="openDialog"
     >
-      <div class="h-4/5 bg-zinc-100 flex items-center justify-center">
+      <div class="w-full h-4/5 bg-zinc-100 flex flex-col items-center justify-center">
         <img
           :src="lightStick.profile ?? url"
           :alt="lightStick.artist"
-          class="w-full h-full object-cover"
+          class="max-w-full max-h-full object-contain"
         />
       </div>
-      <div class="h-1/5 pb-4">
+      <div class="w-full h-1/5 pb-4">
         <div class="text-lg font-bold text-center text-gray-900">{{ lightStick.artist }}</div>
         <div class="text-sm text-center text-gray-600">{{ lightStick.agency }}</div>
       </div>
@@ -68,3 +70,16 @@ const config = {
     </div>
   </div>
 </template>
+
+<style lang="scss">
+.carousel__viewport {
+  margin-top: 10px;
+  height: 88%;
+}
+.carousel__pagination-button {
+  background-color: rgba(206, 206, 206, 0.7);
+}
+.carousel__pagination-button--active {
+  background-color: var(--color-purple-300);
+}
+</style>
