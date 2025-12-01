@@ -36,8 +36,6 @@ img {
 
 /* 버튼 기본 스타일 제거 */
 button {
-  border: none;
-  background: none;
   cursor: pointer;
   font: inherit;
 }

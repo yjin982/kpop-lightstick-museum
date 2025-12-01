@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { storeToRefs } from 'pinia'
 import type { LightstickType } from '@/utils/types.ts'
-import { useDialogStore } from '@/stores/dialog'
+import { useLightstickStore } from '@/stores/useLightstickStore'
 import LightstickCardDetail from './LightstickCardDetail.vue'
 import { Carousel, Slide, Pagination } from 'vue3-carousel'
 
@@ -13,7 +13,7 @@ interface Prop {
 
 const { lightStick, url = '', versions = [] } = defineProps<Prop>()
 
-const store = useDialogStore()
+const store = useLightstickStore()
 const { isOpen, selectedItem } = storeToRefs(store)
 
 const openDialog = () => {

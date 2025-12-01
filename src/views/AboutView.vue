@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
-import LightstickCard from '../components/lightsticks/LightstickCard.vue'
+import LightstickCard from '@/components/lightsticks/LightstickCard.vue'
 import lightsticks from '@/assets/lightsticks.json'
 import type { LightstickType } from '@/utils/types.ts'
 

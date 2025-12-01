@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { useDialogStore } from '@/stores/dialog'
+import { useLightstickStore } from '@/stores/useLightstickStore'
 import { storeToRefs } from 'pinia'
 import { GDialog } from 'gitart-vue-dialog'
 
-const store = useDialogStore()
+const store = useLightstickStore()
 const { isOpen, selectedItem } = storeToRefs(store)
 </script>
 

@@ -9,3 +9,8 @@ export interface LightstickType {
   image: string
   profile?: string
 }
+
+export interface Filterd {
+  main: LightstickType
+  versions: LightstickType[]
+}
