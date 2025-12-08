@@ -1,24 +1,20 @@
 import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
-import type { LightstickType } from '@/utils/types'
-import lightsticks from '@/assets/lightsticks.json'
+import type { LightstickData } from '@/utils/types'
+import lightsticks from '@/assets/lightsticks_grouped.json'
 
-const defaultValue = [
-  {
-    id: 0,
-    artist: '',
-    name: '',
-    agency: '',
-    tag: 'string',
-    version: 0,
-    group: false,
-    image: 'string',
-  },
-]
+// 기본값 정의
+const defaultItem: LightstickData = {
+  id: 0,
+  artist: '',
+  agency: '',
+  tag: '',
+  items: [],
+}
 
 export const useLightstickStore = defineStore('lightstick', () => {
-  const items = ref<LightstickType[]>(lightsticks.lightsticks)
-  const selectedItem = ref<LightstickType[]>(defaultValue)
+  const items = ref<LightstickData[]>(lightsticks.lightsticks)
+  const selectedItem = ref<LightstickData>(defaultItem)
   const selectedAgency = ref<string>('All')
   const query = ref<string>('')
 
@@ -31,50 +27,29 @@ export const useLightstickStore = defineStore('lightstick', () => {
     const searchTerm = query.value.trim().toLowerCase()
     const targetAgency = selectedAgency.value
 
-    return items.value.filter((item) => {
-      const matchAgency = targetAgency === 'All' || item.tag === targetAgency
-
+    return items.value.filter((group) => {
+      const matchAgency = targetAgency === 'All' || group.tag === targetAgency
       if (!searchTerm) return matchAgency
 
+      // 아티스트명, 키워드, 혹은 내부 응원봉 이름 중 하나라도 맞으면 검색
       const matchQuery =
-        item.artist.toLowerCase().includes(searchTerm) ||
-        item.name.toLowerCase().includes(searchTerm) ||
-        item.keywords?.some((k: string) => k.trim().toLowerCase().includes(searchTerm))
+        group.artist.toLowerCase().includes(searchTerm) ||
+        group.keywords?.some((k) => k.trim().toLowerCase().includes(searchTerm)) ||
+        group.items.some((item) => item.name.toLowerCase().includes(searchTerm))
 
       return matchQuery && matchAgency
     })
   })
 
-  const groupedItems = computed(() => {
-    const groups: Record<string, LightstickType[]> = {}
-
-    filteredItems.value.forEach((item) => {
-      const key = item.artist
-      if (!groups[key]) {
-        groups[key] = []
-      }
-      groups[key].push(item)
-    })
-
-    return Object.values(groups).map((versions) => {
-      versions.sort((a, b) => b.version - a.version)
-
-      return {
-        main: versions[0], // 가장 최신 버전 혹은 대표 아이템
-        versions: versions,
-      }
-    })
-  })
-
   const totalPage = computed(() => {
-    if (groupedItems.value.length === 0) return 1
-    return Math.ceil(groupedItems.value.length / itemsPerPage.value)
+    if (filteredItems.value.length === 0) return 1
+    return Math.ceil(filteredItems.value.length / itemsPerPage.value)
   })
 
   const paginatedItems = computed(() => {
     const start = (currentPage.value - 1) * itemsPerPage.value
     const end = start + itemsPerPage.value
-    return groupedItems.value.slice(start, end)
+    return filteredItems.value.slice(start, end)
   })
 
   const pageToShow = computed<Array<number | null>>(() => {
@@ -117,14 +92,14 @@ export const useLightstickStore = defineStore('lightstick', () => {
     return pages
   })
 
-  const openDetail = (item: LightstickType[]) => {
+  const openDetail = (item: LightstickData) => {
     isOpen.value = true
     selectedItem.value = item
   }
 
   const closeDetail = () => {
     isOpen.value = false
-    selectedItem.value = defaultValue
+    selectedItem.value = defaultItem
   }
 
   const setAgency = (agency: string) => {
@@ -178,7 +153,6 @@ export const useLightstickStore = defineStore('lightstick', () => {
   return {
     query,
     filteredItems,
-    groupedItems,
     paginatedItems,
     currentPage,
     totalPage,

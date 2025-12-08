@@ -1,17 +1,18 @@
-export interface LightstickType {
+// 응원봉 개별 버전 타입
+export interface LightstickItem {
   id: number
-  artist: string
   name: string
-  agency: string
-  tag: string
   version: number
-  group: boolean
   image: string
-  profile?: string
-  keywords?: string[]
 }
 
-export interface GroupedLightstick {
-  main: LightstickType
-  versions: LightstickType[]
+// 아티스트(그룹) 단위 타입
+export interface LightstickData {
+  id: number
+  artist: string
+  agency: string
+  tag: string
+  profile?: string
+  keywords?: string[]
+  items: LightstickItem[] // 버전별 응원봉 리스트
 }
