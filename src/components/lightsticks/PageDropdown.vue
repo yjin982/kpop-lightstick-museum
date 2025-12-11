@@ -7,8 +7,15 @@ import { watch } from 'vue'
 
 const store = useLightstickStore()
 
-const itemSize = [{ size: 5 }, { size: 10 }, { size: 30 }, { size: 50 }, { size: 100 }] as const
-const itemsPerPage = ref(itemSize[0])
+const itemSize = [
+  { size: 5 },
+  { size: 10 },
+  { size: 15 },
+  { size: 30 },
+  { size: 50 },
+  { size: 100 },
+] as const
+const itemsPerPage = ref(itemSize[2])
 
 watch(
   () => itemsPerPage.value,

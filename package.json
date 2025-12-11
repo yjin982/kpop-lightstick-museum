@@ -1,10 +1,10 @@
 {
-  "name": "lightstick-wiki",
+  "name": "lightstick-museum",
   "version": "0.0.0",
   "private": true,
   "type": "module",
   "engines": {
-    "node": "^20.19.0 || >=22.12.0"
+    "node": "v24.12.x"
   },
   "scripts": {
     "dev": "vite",
@@ -43,5 +43,7 @@
     "vite": "^7.1.11",
     "vite-plugin-vue-devtools": "^8.0.3",
     "vue-tsc": "^3.1.1"
-  }
+  },
+  "license": "MIT",
+  "author": "YooJin Jeong <yjin.jeong982@gmail.com>"
 }

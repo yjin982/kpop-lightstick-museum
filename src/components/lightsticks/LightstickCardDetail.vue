@@ -6,7 +6,6 @@ import { Carousel, Slide, Pagination, Navigation as CarouselNavigation } from 'v
 import { X, ChevronLeft, ChevronRight } from 'lucide-vue-next'
 
 const store = useLightstickStore()
-// selectedItem은 이제 배열이 아니라 LightstickData 객체입니다.
 const { isOpen, selectedItem } = storeToRefs(store)
 
 const config = {
